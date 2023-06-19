@@ -5,6 +5,7 @@ from custom_dataset_class import CustomDataset
 # Define the transforms for training and testing data
 train_transform = transforms.Compose([
     transforms.Resize(size=(size, size)),  # Resize the image to the desired size
+    transforms.TrivialAugmentWide(num_magnitude_bins=31),  # Wasn't used in all experiments 
     transforms.ToTensor()  # Convert the image to a tensor
 ])
 
