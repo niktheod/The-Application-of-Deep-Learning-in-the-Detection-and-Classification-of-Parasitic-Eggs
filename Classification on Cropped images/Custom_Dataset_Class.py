@@ -6,7 +6,7 @@ from PIL import Image
 import json
 
 
-labels_file = "/content/drive/MyDrive/labels.json"
+labels_file = "..."
 
 
 class CustomDataset(Dataset):
