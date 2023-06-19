@@ -1,6 +1,6 @@
 from torchvision import transforms
 from torch.utils.data import DataLoader
-from Custom_Dataset_Class import CustomDataset
+from custom_dataset_class import CustomDataset
 
 # Define the transforms for training and testing data
 train_transform = transforms.Compose([
